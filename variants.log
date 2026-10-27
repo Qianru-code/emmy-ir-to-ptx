@@ -1,0 +1,2 @@
+37-cell subtract, excess threads, output-first args: PASS (max error 0.000e+00)
+7x1003 row sums, strided tail, output-first args: PASS (max error 9.537e-06)

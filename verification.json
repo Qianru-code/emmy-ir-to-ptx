@@ -1,0 +1,81 @@
+{
+  "verified_at_utc": "2026-10-25T22:53:15.371478+00:00",
+  "runner": "http://runner.riftstack.ai:48701",
+  "results": [
+    {
+      "problem": "a01_attention",
+      "passed": true,
+      "log": "[k_matmul_softmax_reduce_b55365] 128 registers\n[k_matmul_softmax_reduce_b55365] PASS  matmul_1: max abs err 6.557e-07  (108.48 us)\n"
+    },
+    {
+      "problem": "a02_attention_128",
+      "passed": true,
+      "log": "[k_matmul_softmax_reduce_6f0029] 56 registers\n[k_matmul_softmax_reduce_6f0029] PASS  matmul_1: max abs err 4.470e-07  (74.176 us)\n"
+    },
+    {
+      "problem": "f01_rmsnorm",
+      "passed": true,
+      "log": "[k_mean_cbd1de] 20 registers\n[k_mean_cbd1de] PASS  mul_1: max abs err 1.907e-06  (16.608 us)\n"
+    },
+    {
+      "problem": "f02_row_softmax",
+      "passed": true,
+      "log": "[k_softmax_05263d] 24 registers\n[k_softmax_05263d] PASS  softmax: max abs err 7.451e-09  (16.384 us)\n"
+    },
+    {
+      "problem": "f03_l2norm",
+      "passed": true,
+      "log": "[k_div_reduce] 20 registers\n[k_div_reduce] PASS  div: max abs err 1.490e-08  (17.088 us)\n"
+    },
+    {
+      "problem": "m01_matmul_512",
+      "passed": true,
+      "log": "[k_matmul_2967be] 34 registers\n[k_matmul_2967be] PASS  matmul: max abs err 8.392e-05  (115.392 us)\n"
+    },
+    {
+      "problem": "m02_matmul_rect",
+      "passed": true,
+      "log": "[k_matmul] 32 registers\n[k_matmul] PASS  matmul: max abs err 1.144e-05  (16.096 us)\n"
+    },
+    {
+      "problem": "p00_scalar_add",
+      "passed": true,
+      "log": "[k_add_pointwise] 18 registers\n[k_add_pointwise] PASS  add: max abs err 0.000e+00  (24.128 us)\n"
+    },
+    {
+      "problem": "p01_vector_add",
+      "passed": true,
+      "log": "[k_add_pointwise] 18 registers\n[k_add_pointwise] PASS  add: max abs err 0.000e+00  (23.872 us)\n"
+    },
+    {
+      "problem": "p02_scale_shift",
+      "passed": true,
+      "log": "[k_add_pointwise] 24 registers\n[k_add_pointwise] PASS  add: max abs err 0.000e+00  (16.416 us)\n"
+    },
+    {
+      "problem": "p03_relu_mul",
+      "passed": true,
+      "log": "[k_mul_pointwise] 22 registers\n[k_mul_pointwise] PASS  mul: max abs err 0.000e+00  (16.384 us)\n"
+    },
+    {
+      "problem": "r01_array_sum",
+      "passed": true,
+      "log": "[k_sum_1_reduce] 18 registers\n[k_sum_1_reduce] PASS  sum_1: max abs err 3.815e-06  (23.872 us)\n"
+    },
+    {
+      "problem": "r02_big_sum",
+      "passed": true,
+      "log": "[k_sum_1_reduce] 18 registers\n[k_sum_1_reduce] PASS  sum_1: max abs err 1.526e-05  (40.736 us)\n"
+    },
+    {
+      "problem": "r03_mean",
+      "passed": true,
+      "log": "[k_mean_ffcca3] 18 registers\n[k_mean_ffcca3] PASS  mean: max abs err 9.313e-10  (31.84 us)\n"
+    },
+    {
+      "problem": "r04_row_sum",
+      "passed": true,
+      "log": "[k_sum_1_reduce] 20 registers\n[k_sum_1_reduce] PASS  sum_1: max abs err 5.722e-06  (24.512 us)\n"
+    }
+  ]
+}
